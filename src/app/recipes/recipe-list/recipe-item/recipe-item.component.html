@@ -1,7 +1,7 @@
 <a href="#" class="list-group-item clearfix mt-2" (click)="onSelected()">
   <div class="pull-left">
-    <h4 class="list-group-item-heading text-dark font-weight-bold"> {{ recipe.name }} </h4>
-    <p class="list-group-item-text text-dark font-weight-bold">{{ recipe.description }}</p>
+    <h4 class="list-group-item-heading font-weight-bold"> {{ recipe.name }} </h4>
+    <p class="list-group-item-text text-dark">{{ recipe.description }}</p>
   </div>
   <span class="pull-right">
     <img [src]="recipe.imagePath" class="img-responsive" style="max-height: 50px" [alt]="recipe.name">

@@ -1,0 +1,19 @@
+.manage-recipe{
+    background: #b3b300;
+}
+.recipe-name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategrey;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.btn-recipe{
+    margin-top: 5%;
+}
+.recipe-description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkslategrey;
+    font-size: 16px;
+    text-transform: capitalize;
+}
